@@ -1,0 +1,170 @@
+
+body {
+    background-color: #fff;
+  }
+  
+  .menu {
+    position: relative;
+    margin: 10px auto;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    height: 35px;
+    font-size: 20px;
+    display: block;
+    overflow: auto;
+    border-bottom: 3px solid black;
+    max-width: fit-content;
+    display: block;
+  }
+  
+  header a {
+    color: black;
+    text-decoration: none;
+    margin: 50px;
+    font-family: tahoma;
+    text-transform: uppercase;
+  }
+  
+  a:hover {
+    color: gold;
+    font-size: 30px;
+    padding: 10px;
+  }
+  
+  .header {
+    position: relative;
+    color: white;
+    font-size: 23px;
+    font-family: helvetica;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 100px 20px;
+    height: 300px;
+    width: 90%;
+    background-image: url("https://s1.1zoom.me/big0/291/351216-svetik.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .header h1 {
+    border: 4px solid white;
+    border-radius: 15px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  
+  
+  #quote {
+    text-align: center;
+    margin: 100px auto 10px;
+    font-size: 21px;
+    color: white;
+    border-bottom: 3px solid white;
+  }
+  
+  .intro  {
+    width: auto;
+    margin: 50px auto 20px;
+    text-align: center;
+    color: black;
+    padding: 20px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-family: georgia;
+    width: 70%;
+  }
+  
+  .preparation h3 {
+    text-align: center;
+    color: black;
+    border: solid black;
+    border-radius: 15px;
+    width: 70%;
+    margin: auto;
+    padding: 3px 20px;
+    background-color: white;
+    letter-spacing: 5px;
+    font-size: 22px;
+    font-family: tahoma;
+  }
+  
+  .preparation {
+    background-image: url("https://w0.peakpx.com/wallpaper/324/418/HD-wallpaper-venice-at-night-lovely-romantic-view-italy-place-beautiful-lights-venice-water-dark-reflection-gondola-night.jpg");
+    background-size: 100%;
+    margin: auto;
+    max-width: 60%;
+    max-height: 300px;
+    padding-top: 90px;
+    overflow: scroll;
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+    top: 0;
+  }
+  
+  .preparation p {
+      color: white;
+      width: 70%;
+      margin: 20px auto;
+      font-size: 16px;
+      letter-spacing: 3px;
+      font-family: georgia;
+      text-align: center;
+  }
+  
+  h3 {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 26px;
+    font-family: tahoma;
+    margin: 30px auto;
+    width: 90%;
+    border-bottom: solid 3px black;
+  }
+  
+  .itinery {
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    padding: 20px;
+  }
+  
+  table {
+    margin: 0 auto;
+    border: 3px solid black;
+    width: 60%;
+    font-family: tahoma;
+    color: white;
+    background-color: #030325;
+    border-radius: 10px;
+   
+  }
+  
+  th {
+    margin: 15px auto;
+    font-size: 22px;
+    padding: 15px;
+    background-color: white;
+    color: black;
+  }
+  
+  td {
+    border: 1px solid white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  td a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  td a:hover {
+    color: gold;
+    font-size: 20px !important;
+  }
+  
