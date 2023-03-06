@@ -1,170 +1,291 @@
 
-body {
-    background-color: #fff;
-  }
-  
-  .menu {
-    position: relative;
-    margin: 10px auto;
-    padding: 15px;
-    text-align: center;
-    background-color: white;
-    height: 35px;
-    font-size: 20px;
-    display: block;
-    overflow: auto;
-    border-bottom: 3px solid black;
-    max-width: fit-content;
-    display: block;
-  }
-  
-  header a {
-    color: black;
+
+.nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 120px 15px 120px;
+}
+
+
+.nav li {
+    display: inline;
+    margin: 20px;
+    font-size: 1.5rem;
+    font-family: 'Varela Round', sans-serif;
+    border-bottom: 2px solid #EFD10F;
+  }  
+
+.nav h3 {
+    font-family: mynerve;
+    font-size: 4.2rem;
+}
+
+li a {
     text-decoration: none;
-    margin: 50px;
-    font-family: tahoma;
-    text-transform: uppercase;
-  }
-  
-  a:hover {
-    color: gold;
-    font-size: 30px;
-    padding: 10px;
-  }
-  
-  .header {
-    position: relative;
-    color: white;
-    font-size: 23px;
-    font-family: helvetica;
-    text-align: center;
+}
+
+li a:hover {
     font-weight: bold;
-    margin: 0 auto;
-    padding: 100px 20px;
-    height: 300px;
-    width: 90%;
-    background-image: url("https://s1.1zoom.me/big0/291/351216-svetik.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-  
-  .header h1 {
-    border: 4px solid white;
-    border-radius: 15px;
-    width: 60%;
-    margin: 0 auto;
-    padding: 30px 0;
-  }
-  
-  
-  #quote {
-    text-align: center;
-    margin: 100px auto 10px;
-    font-size: 21px;
-    color: white;
-    border-bottom: 3px solid white;
-  }
-  
-  .intro  {
-    width: auto;
-    margin: 50px auto 20px;
-    text-align: center;
+}
+
+li a:visited {
     color: black;
-    padding: 20px;
-    font-size: 18px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .nav {
+        display: flex;
+        justify-content: center;
+        padding: 15px; 
+    }
+    
+    .nav li a {
+        font-size: 1.2rem;
+    }
+}
+
+.banner {
+    margin: 40px auto;
+    width: 90%;
+    min-height: 700px;
+    background-image: url("https://images.unsplash.com/photo-1479044769763-c28e05b5baa5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.welcome { 
+    text-align: center;
+    line-height: 0.5;
+}
+
+.welcome h1 {
+    font-family: mynerve;
+    font-size: 12rem;
     letter-spacing: 3px;
-    font-family: georgia;
-    width: 70%;
-  }
-  
-  .preparation h3 {
-    text-align: center;
-    color: black;
-    border: solid black;
-    border-radius: 15px;
-    width: 70%;
-    margin: auto;
-    padding: 3px 20px;
-    background-color: white;
-    letter-spacing: 5px;
-    font-size: 22px;
-    font-family: tahoma;
-  }
-  
-  .preparation {
-    background-image: url("https://w0.peakpx.com/wallpaper/324/418/HD-wallpaper-venice-at-night-lovely-romantic-view-italy-place-beautiful-lights-venice-water-dark-reflection-gondola-night.jpg");
-    background-size: 100%;
-    margin: auto;
-    max-width: 60%;
-    max-height: 300px;
-    padding-top: 90px;
-    overflow: scroll;
-    background-position: center;
-    background-size: cover;
-    position: sticky;
-    top: 0;
-  }
-  
-  .preparation p {
-      color: white;
-      width: 70%;
-      margin: 20px auto;
-      font-size: 16px;
-      letter-spacing: 3px;
-      font-family: georgia;
-      text-align: center;
-  }
-  
-  h3 {
-    text-align: center;
-    letter-spacing: 5px;
-    font-size: 26px;
-    font-family: tahoma;
-    margin: 30px auto;
+}
+
+.welcome h3 {
+    font-family: 'varela round', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
+
+.bio {
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     width: 90%;
-    border-bottom: solid 3px black;
-  }
-  
-  .itinery {
-    background-color: white;
-    z-index: 1;
-    position: relative;
-    padding: 20px;
-  }
-  
-  table {
-    margin: 0 auto;
-    border: 3px solid black;
-    width: 60%;
-    font-family: tahoma;
-    color: white;
-    background-color: #030325;
-    border-radius: 10px;
-   
-  }
-  
-  th {
-    margin: 15px auto;
-    font-size: 22px;
-    padding: 15px;
-    background-color: white;
-    color: black;
-  }
-  
-  td {
-    border: 1px solid white;
-    margin: 0 auto;
+    height: 600px;
+}
+
+.statement {
+    width: 50%;
+    font-family: 'varela round', sans-serif;
+}
+
+.statement h3 {
+    font-size: 1.8rem;
     text-align: center;
-    padding: 10px;
-  }
-  
-  td a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  td a:hover {
-    color: gold;
-    font-size: 20px !important;
+}
+
+.statement p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    padding: 0px 30px;
+}
+
+.image {
+    width: 40%;
+    height: 60%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('https://images.unsplash.com/photo-1590577976322-3d2d6e2130d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Experience new taste sensations');
+}
+
+@media only screen and (max-width: 800px) {
+    .image {
+        display: hidden;
+    }
+}
+
+.yellow {
+    color: #EFD10F;
+}
+
+.menu-title {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-title h2 {
+    font-size: 65px;
+    font-family: mynerve, sans-serif;
+    text-align: center;
+}
+
+.menu {
+    margin: 40px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu-items {
+    height: 300px;
+    width: 300px;
+    overflow-y: scroll;
+    background-color: #36363a;
+    padding: 20px;
+} 
+
+.menu-items h3 {
+    text-align: center;
+    font-family: mynerve, sans-serif;
+    font-size: 2.3rem;
+    color: #EFD10F;
+}
+
+
+.menu-items h4, .menu-items p {
+    line-height: normal;
+    line-break: 2px;
+    list-style-type: none;
+    font-family: 'Varela Round', sans-serif;
+    color: #EFD10F;
+}
+
+.menu-items h4 {
+    font-size: 16px;
+}
+
+.menu-items p {
+    margin-bottom: 50px;
+    font-size: 14px;
+}
+
+.price {
+    text-align: right;
+}
+
+@media only screen and (max-width: 850px) {
+    .bio {
+        overflow: scroll;
+        padding-top: 200px;
+    }
+
+    .statement { 
+        padding: 0px;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+    }
+
+    .menu-title {
+        margin-top: 100px;
+        padding-top: 100px;
+    }
+
+    .menu-items {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .nav {
+      height: auto;
+      display: block;
+      text-align: center;
+      padding: 10px;
+    }
+    
+    .nav li {
+      display: block;
+      margin: 10px;
+      font-size: 1.2rem;
+      border-bottom: none;
+    }
+    
+    .nav h3 {
+      font-size: 2.5rem;
+    }
+    
+    .banner {
+      min-height: 300px;
+    }
+    
+    .welcome h1 {
+      font-size: 5rem;
+      letter-spacing: 1px;
+    }
+    
+    .welcome h3 {
+      font-size: 1.8rem;
+      letter-spacing: 2px;
+    }
+    
+    .bio {
+      flex-direction: column;
+      height: auto;
+    }
+    
+    .statement {
+      width: 100%;
+    }
+    
+    .image {
+      width: 80%;
+      height: 200px;
+      margin: 20px auto;
+      background-size: cover;
+    }
+    
+    .menu-title h2 {
+      font-size: 40px;
+    }
+    
+    .menu {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .menu-items {
+      height: auto;
+      width: 80%;
+      overflow-y: auto;
+      margin: 20px 0;
+    } 
+    
+    .menu-items h3 {
+      font-size: 2rem;
+    }
+    
+    .menu-items h4 {
+      font-size: 14px;
+    }
+    
+    .menu-items p {
+      font-size: 12px;
+      margin-bottom: 20px;
+    }
+    
+    .price {
+      text-align: left;
+    }
   }
   
